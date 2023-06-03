@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="application-name" content="Encriptador">
+    <meta name="author" content="Franco Tejada">
+    <meta name="description" content="Encriptar frases">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar</title>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css"  href="styles.css">
+</head>
+<body>
+
+<header>
+
+    <h1>Encriptar frases</h1>
+
+    <img src="imagen/logo.png" alt="logo">
+
+</header>
+
+<main>
+
+    <section class="izquierda">
+        <input type="text" placeholder="Escribe tu frase aquí..." id="textoEncriptado"> 
+        
+<div class="botones">
+        <button type="button" id="botonEncriptado"onclick="encriptar()">Encriptar</button>
+<button type="button" id="botonDesencriptar"onclick="desencriptar()">Desencriptar</button>
+
+</div>
+    </section>
+
+    <section class="derecha">
+<div class="imagen">
+        <img src="imagen/Muñeco.png" id="imagen">
+    </div>
+    <div class="subtitulo">
+        <h3 id="subtitulo">Ningún mensaje fue encontrado.</h3>
+    </div>
+    <textarea class="textarea"  name="resultado" id="textoDesencriptado"></textarea>
+    <button type="button" id="botonCopiar"onclick="copiar()">Copiar</button>
+    </section>
+
+
+</main>
+
+<footer>
+
+    <p id="p">Alura Challenge 1. Hecho por Franco Tejada.</p>
+
+</footer>
+
+</body>
